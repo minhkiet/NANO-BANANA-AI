@@ -661,19 +661,8 @@ const App = () => {
           ))}
         </div>
       </main>
-      <footer className="text-center py-6 text-sm text-slate-500 border-t space-y-3">
-        <p>Lấy cảm hứng từ Awesome Nano Banana Images trên Github</p>
-        <p className="font-semibold">©DƯƠNG TIẾN DŨNG ☎️ 0917.939.111</p>
-        <div>
-            <a 
-                href="https://zalo.me/g/xxgxqm429" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="inline-block bg-blue-500 text-white font-bold py-2 px-4 rounded-md hover:bg-blue-600 transition"
-            >
-                Tham gia nhóm để được hỗ trợ
-            </a>
-        </div>
+      <footer className="text-center py-6 text-sm text-slate-500 border-t">
+        <p className="font-semibold">© nơi không biên giới</p>
       </footer>
       {renderModal()}
       {showDonationModal && <DonationModal onClose={() => setShowDonationModal(false)} />}
